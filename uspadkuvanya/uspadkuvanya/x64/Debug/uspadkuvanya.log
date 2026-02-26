@@ -1,0 +1,12 @@
+﻿  uspadkuvanya.cpp
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(91,68): warning C4305: 'argument': truncation from 'double' to 'T4'
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(91,68): warning C4305:         with
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(91,68): warning C4305:         [
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(91,68): warning C4305:             T4=float
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(91,68): warning C4305:         ]
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(94,81): warning C4305: 'argument': truncation from 'double' to 'T4'
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(94,81): warning C4305:         with
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(94,81): warning C4305:         [
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(94,81): warning C4305:             T4=float
+C:\Users\User\source\repos\uspadkuvanya\uspadkuvanya\uspadkuvanya.cpp(94,81): warning C4305:         ]
+  uspadkuvanya.vcxproj -> C:\Users\User\source\repos\uspadkuvanya\x64\Debug\uspadkuvanya.exe

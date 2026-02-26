@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="uspadkuvanya/uspadkuvanya.vcxproj" Id="0ba128f3-58d3-49db-9bb2-79c7c0e2438f" />
+</Solution>
