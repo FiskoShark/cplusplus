@@ -72,7 +72,7 @@ int main()
     }
 
 
-
+    ///або...
     for (int i = 0; i < 3; i++) {
         cout << "Працівник №" << i + 1 << ": ";
         workers[i]->printInfo();
@@ -80,7 +80,7 @@ int main()
 
 
 
-    ///або...
+    
     for (int i = 0; i < 3; i++) { //---очищення---//
     delete workers[i];
     }
