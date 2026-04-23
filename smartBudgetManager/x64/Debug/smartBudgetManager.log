@@ -1,0 +1,74 @@
+﻿  sqlite3.c
+  smartBudgetManager.cpp
+C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(51,5): error C3861: 'getline': identifier not found
+C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,24): error C3861: 'to_string': identifier not found
+C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,22): error C2676: binary '+': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not define this operator or a conversion to a type acceptable to the predefined operator
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3338,62):
+      could be 'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+              could be '<error>'
+              C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+              or       'char'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': could not deduce template argument for 'const _Elem' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3332,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )': could not deduce template argument for 'const _Elem *const ' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3326,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3320,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'const _Elem *const ' from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3307,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3301,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3295,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3284,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+              could be '<error>'
+              C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+              or       'char'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'const _Elem' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3271,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': could not deduce template argument for 'const _Elem *const ' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3260,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3247,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const _Elem *const ' from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3235,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(4626,46):
+      or       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from '<error>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(2050,50):
+      or       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+          C:\Users\User\source\repos\smartBudgetManager\smartBudgetManager\smartBudgetManager.cpp(55,14):
+          'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from '<error>'
+  

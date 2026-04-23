@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="smartBudgetManager/smartBudgetManager.vcxproj" Id="f142c485-e6cf-4e72-a6df-7c4b8880b5c4" />
+</Solution>
