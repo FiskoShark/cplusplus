@@ -1,0 +1,44 @@
+# ===== Build directories =====
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# ===== Compiled files =====
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# ===== Debug / symbols =====
+*.dSYM/
+*.pdb
+
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ===== IDEs =====
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+
+# ===== Compiler logs =====
+*.log
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
