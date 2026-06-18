@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ThreadFactory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F87E5B5C-9659-4EE3-91E8-EE272F1D3BD3}|ThreadFactory\\ThreadFactory.vcxproj|C:\\Users\\User\\source\\repos\\ThreadFactory\\ThreadFactory\\ThreadFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F87E5B5C-9659-4EE3-91E8-EE272F1D3BD3}|ThreadFactory\\ThreadFactory.vcxproj|solutionrelative:ThreadFactory\\ThreadFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThreadFactory.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ThreadFactory\\ThreadFactory\\ThreadFactory.cpp",
+              "RelativeDocumentMoniker": "ThreadFactory\\ThreadFactory.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ThreadFactory\\ThreadFactory\\ThreadFactory.cpp",
+              "RelativeToolTip": "ThreadFactory\\ThreadFactory.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-17T13:25:26.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
