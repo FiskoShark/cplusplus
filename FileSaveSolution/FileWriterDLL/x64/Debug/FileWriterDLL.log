@@ -1,0 +1,6 @@
+﻿  FileWriter.cpp
+C:\Users\User\source\repos\FileSaveSolution\FileWriterDLL\FileWriter.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file '/FileWriter.cpp')
+  
+     Creating library C:\Users\User\source\repos\FileSaveSolution\x64\Debug\FileWriterDLL.lib and object C:\Users\User\source\repos\FileSaveSolution\x64\Debug\FileWriterDLL.exp
+  FileWriterDLL.vcxproj -> C:\Users\User\source\repos\FileSaveSolution\x64\Debug\FileWriterDLL.dll

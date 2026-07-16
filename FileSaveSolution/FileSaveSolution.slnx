@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="FileSaveSolution/FileSaveSolution.vcxproj" Id="d59d9700-5305-4b98-8e27-f2f2295d4726" />
+  <Project Path="FileWriterDLL/FileWriterDLL.vcxproj" Id="eebde416-21e7-44fd-962d-a91ea5e7f446" />
+</Solution>
